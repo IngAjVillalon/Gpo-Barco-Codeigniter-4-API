@@ -27,8 +27,8 @@ class Database extends Config
     public array $default = [
         'DSN'          => '',
         'hostname'     => 'barrenecheasoc.com',
-        'username'     => 'aabasoc_grupobar',
-        'password'     => 'Gbar_2018',
+        'username'     => 'aabasoc_APINSPECTIONS',
+        'password'     => '3pJIWSgX9xSo',
         'database'     => 'aabasoc_grupobarco',
         'DBDriver'     => 'MySQLi',
         'DBPrefix'     => '',
