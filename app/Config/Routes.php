@@ -24,7 +24,7 @@ $routes->get('querybyrfc2/salida/(:alphanum)', 'QueryByRFC::salida/$1');
 
 $routes->get('querybyrfc2/entrada/(:alphanum)', 'QueryByRFCe::entrada/$1');
 
-$routes->get('query-by-rfc-all/(:alphanum)', 'QueryByRFCAll::all/$1');
+$routes->get('query-by-rfc-all/(:alphanum)', 'QueryByRFCAll::all/$1', ['filter'=>'cors']);
 
 
 
